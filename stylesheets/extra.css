@@ -1,0 +1,35 @@
+/* ============================================================================
+ * qr.ol.uz docs — theme ported from unified-ui's ADMIN (staff console) theme.
+ *
+ * Source of truth: unified-ui/src/styles/account-themes.css, block
+ * `html:has([data-account="admin"])` — Tailwind `slate` mapped 1:1, anchor on
+ * the 600 slot (#475569). Dark mode anchors two steps brighter (slate-400
+ * #94a3b8) per the same file. Fonts from unified-ui/src/styles/theme.css:
+ * Inter (body/display), Roboto Mono (mono).
+ * ========================================================================== */
+
+/* ---- Light scheme — slate-600 anchor ------------------------------------ */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #475569; /* slate-600 — anchor, header/solids */
+  --md-primary-fg-color--light: #64748b; /* slate-500 */
+  --md-primary-fg-color--dark: #334155; /* slate-700 — hover slot */
+  --md-accent-fg-color: #334155; /* slate-700 — link hover, focus */
+  --md-accent-fg-color--transparent: rgb(51 65 85 / 0.1);
+  --md-typeset-a-color: #475569; /* slate-600 links */
+  --md-footer-bg-color: #1e293b; /* slate-800 */
+  --md-footer-bg-color--dark: #0f172a; /* slate-900 */
+}
+
+/* ---- Dark scheme — near-black slate chrome, slate-400 anchor ------------- */
+[data-md-color-scheme="slate"] {
+  --md-hue: 222; /* slate's hue, so derived surfaces lean slate not indigo */
+  --md-default-bg-color: #0f172a; /* slate-900 surface */
+  --md-primary-fg-color: #1e293b; /* slate-800 header on near-black */
+  --md-primary-fg-color--light: #334155; /* slate-700 */
+  --md-primary-fg-color--dark: #020617; /* slate-950 */
+  --md-accent-fg-color: #cbd5e1; /* slate-300 — link hover, focus */
+  --md-accent-fg-color--transparent: rgb(203 213 225 / 0.1);
+  --md-typeset-a-color: #94a3b8; /* slate-400 — dark anchor */
+  --md-footer-bg-color: #020617; /* slate-950 */
+  --md-footer-bg-color--dark: #020617;
+}
