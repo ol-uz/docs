@@ -1,0 +1,62 @@
+site_name: qr.ol.uz hujjatlari
+site_description: qr.ol.uz — QR to'lovlar platformasi bo'yicha foydalanuvchi qo'llanmasi
+site_url: https://ol-uz.github.io/docs/
+repo_url: https://github.com/ol-uz/docs
+repo_name: ol-uz/docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: uz
+  icon:
+    logo: material/qrcode
+  favicon: https://qr.ol.uz/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Tungi rejimga o'tish
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Kunduzgi rejimga o'tish
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Bosh sahifa: index.md
+  - Kompaniya: kompaniya.md
+  - Xodim: xodim.md
+  - Merchant: merchant.md
+
+extra:
+  social:
+    - icon: material/web
+      link: https://qr.ol.uz
+      name: qr.ol.uz platformasi
