@@ -5,7 +5,7 @@ Ushbu bo'limda kompaniyani ro'yxatdan o'tkazish, balansni to'ldirish, xodimlar q
 ## Ro'yxatdan o'tish
 
 !!! note "Oldindan tayyorlang"
-    Ro'yxatdan o'tish uchun [inbiz.uz](https://inbiz.uz/uz/) platformasida tasdiqlangan yuridik shaxs (kompaniya) hisobingiz va uning **e-imzo** sertifikati bo'lishi kerak.
+Ro'yxatdan o'tish uchun [inbiz.uz](https://inbiz.uz/uz/) platformasida tasdiqlangan yuridik shaxs (kompaniya) hisobingiz va uning **e-imzo** sertifikati bo'lishi kerak.
 
 1. [https://qr.ol.uz/uz/register](https://qr.ol.uz/uz/register) sahifasiga kiring.
 2. «qr.ol.uz'dan qanday foydalanasiz?» degan savolga **Kompaniya** variantini tanlang.
@@ -14,7 +14,7 @@ Ushbu bo'limda kompaniyani ro'yxatdan o'tkazish, balansni to'ldirish, xodimlar q
 ![Ro'yxatdan o'tish sahifasi — Kompaniya varianti tanlangan](images/start_register_page.png)
 
 !!! tip "Avval ro'yxatdan o'tganmisiz?"
-    Xuddi shu tugma orqali tizimga qayta kirasiz — alohida «kirish» jarayoni shart emas.
+Xuddi shu tugma orqali tizimga qayta kirasiz — alohida «kirish» jarayoni shart emas.
 
 ### inbiz orqali kirish
 
@@ -31,15 +31,15 @@ Keyin inbiz sizdan qr.ol.uz bilan ma'lumot ulashishni tasdiqlashni so'raydi. **T
 inbiz'dan qaytganingizdan so'ng qr.ol.uz telefon raqamingizni so'raydi. Bu — oxirgi qadam: raqamingizni tasdiqlasangiz, keyingi safar e-imzosiz, faqat telefon raqami va SMS kod bilan kira olasiz.
 
 !!! warning "Bu qadamni o'tkazib yubormang"
-    Telefon raqamini tasdiqlamasangiz, har safar e-imzo bilan kirishga to'g'ri keladi.
+Telefon raqamini tasdiqlamasangiz, har safar e-imzo bilan kirishga to'g'ri keladi.
 
 1. Telefon raqamingizni kiriting va **Kod yuborish** tugmasini bosing.
 
-    ![Telefon raqamini kiritish sahifasi](images/redirected_phone_entry.png)
+   ![Telefon raqamini kiritish sahifasi](images/redirected_phone_entry.png)
 
 2. SMS orqali kelgan 6 xonali kodni kiriting va **Tasdiqlash** tugmasini bosing.
 
-    ![SMS kodni tasdiqlash sahifasi](images/redirected_otp_confirm.png)
+   ![SMS kodni tasdiqlash sahifasi](images/redirected_otp_confirm.png)
 
 Shu bilan ro'yxatdan o'tish yakunlanadi va siz kompaniya ish maydoniga o'tasiz.
 
@@ -53,7 +53,7 @@ Birinchi qiladigan ishingiz — **PIN kod** o'rnatish. Bu 5 xonali raqamli kod b
 ![Sozlamalar sahifasi — PIN kod bo'limi](images/settings_page.png)
 
 !!! info "Bitta PIN — barcha akkauntlar uchun"
-    PIN kod akkauntga emas, shaxsingizga bog'lanadi: kompaniya, merchant va xodim akkauntlaringizning barchasida bitta PIN ishlaydi. Uni bir joyda o'zgartirsangiz, hamma qurilma va akkauntlarda o'zgaradi.
+PIN kod akkauntga emas, shaxsingizga bog'lanadi: kompaniya, merchant va xodim akkauntlaringizning barchasida bitta PIN ishlaydi. Uni bir joyda o'zgartirsangiz, hamma qurilma va akkauntlarda o'zgaradi.
 
 ## Boshqaruv paneli
 
@@ -72,7 +72,7 @@ Kompaniya balansi bank o'tkazmasi orqali to'ldiriladi:
 
 1. Boshqaruv panelidagi **Balansni to'ldirish** tugmasini bosing — to'ldirish bo'yicha ko'rsatma ochiladi.
 2. Ko'rsatmada qr.ol.uz platformasining bank rekvizitlari (hisob raqami, MFO, STIR) ko'rsatilgan. Kompaniyangiz bank hisobidan aynan shu hisobga o'tkazma qiling.
-3. **To'lov izohida hamyoningiz ID raqamini (masalan, `#0006`) albatta ko'rsating** — usiz to'lovingiz qaysi kompaniyaga tegishli ekanini aniqlab bo'lmasligi mumkin.
+3. **To'lov izohida hamyoningiz ID raqamini (masalan, `#0001`) albatta ko'rsating** — usiz to'lovingiz qaysi kompaniyaga tegishli ekanini aniqlab bo'lmasligi mumkin.
 
 ![Balansni to'ldirish ko'rsatmasi — bank rekvizitlari](images/topup_instructions.png)
 
@@ -86,18 +86,18 @@ Chap menyudan **Xodimlar** sahifasiga o'ting. Bu yerda kompaniyangizga qo'shilga
 
 Yangi xodim qo'shish uchun **Xodim qo'shish** tugmasini bosing va quyidagi ma'lumotlarni kiriting:
 
-| Maydon | Izoh |
-| --- | --- |
-| Familiya, Ism | Majburiy |
-| Otasining ismi | Ixtiyoriy |
-| JSHSHIR (PINFL) | 14 xonali shaxsiy identifikatsiya raqami |
-| Telefon raqami | Xodim shu raqam orqali SMS kod bilan tizimga kiradi |
-| Lavozim | Ixtiyoriy |
+| Maydon          | Izoh                                                |
+| --------------- | --------------------------------------------------- |
+| Familiya, Ism   | Majburiy                                            |
+| Otasining ismi  | Ixtiyoriy                                           |
+| JSHSHIR (PINFL) | 14 xonali shaxsiy identifikatsiya raqami            |
+| Telefon raqami  | Xodim shu raqam orqali SMS kod bilan tizimga kiradi |
+| Lavozim         | Ixtiyoriy                                           |
 
 ![Xodim qo'shish formasi](images/employee_add_form.png)
 
 !!! info "Xodimga parol kerak emas"
-    Xodim siz kiritgan telefon raqami orqali [qr.ol.uz](https://qr.ol.uz) saytiga kiradi — SMS kod bilan, parolsiz.
+Xodim siz kiritgan telefon raqami orqali [qr.ol.uz](https://qr.ol.uz) saytiga kiradi — SMS kod bilan, parolsiz.
 
 ### Xarajat ruxsatlarini sozlash
 
@@ -110,7 +110,7 @@ Xodim qatoriga bossangiz, o'ng tomonda **Xodim xarajatlari** oynasi ochiladi. Bu
 ![Xodim xarajat ruxsatlari — toifalar va kompaniya balansiga ruxsat](images/employee_permissions.png)
 
 !!! warning "Toifa yoqilmagan bo'lsa, to'lov o'tmaydi"
-    Xodim faqat unga yoqilgan toifalarga tegishli do'konlarda to'lov qila oladi. Hech bir toifa yoqilmagan xodim to'lov qila olmaydi.
+Xodim faqat unga yoqilgan toifalarga tegishli do'konlarda to'lov qila oladi. Hech bir toifa yoqilmagan xodim to'lov qila olmaydi.
 
 ## Akkauntlar o'rtasida almashish
 
